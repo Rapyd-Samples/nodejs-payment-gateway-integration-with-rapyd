@@ -11,7 +11,7 @@
     <body>
       <div class="row">
     <div class="col-md-12">
-      <form action="" method="post">
+      <form id="checkoutForm">
         <h1> Product Checkout </h1>
         <h3> 
           Item: <%= product_name %> 
@@ -22,21 +22,24 @@
         <fieldset>
         
           <label for="name">Full Name:</label>
-          <input type="text" id="u_full_name" name="user_full_name">
+          <input type="text" required id="u_full_name" name="user_full_name">
         
           <label for="email">Email:</label>
-          <input type="email" id="user_email" name="user_email">
+          <input type="email" required id="user_email" name="user_email">
        
           <label for="name">Full Address:</label>
-          <textarea id="user_full_address" name="user_full_address"></textarea>
+          <textarea id="user_full_address" required name="user_full_address"></textarea>
           
         </fieldset>
        
-        <button type="submit">Checkout</button>
+        <button type="submit" id="notloading">Checkout</button>
+        <button type="button" style="display: none;" id="loading">Loading......</button>
         
        </form>
-        </div>
+      </div>
       </div>
       
     </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="public/js/ajax-script.js"></script>
 </html>
