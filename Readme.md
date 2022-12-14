@@ -6,7 +6,7 @@
 
 ## How to run the application
 - Clone this repository
-- rename .enc.example to .env
+- rename .env.example to .env
 - Add your database credentials to the .env file
 - Add your port number to the .env file
 - Add your Rapyd API keys to the .env file
