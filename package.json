@@ -21,7 +21,7 @@
     "moment": "^2.29.4",
     "pg": "^8.8.0",
     "pug": "^3.0.2",
-    "uuid": "^9.0.0"
+    "uuid": "^14.0.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
